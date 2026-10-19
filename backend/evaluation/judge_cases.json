@@ -1,0 +1,10 @@
+[
+  {"id": "ppt-1", "type": "ppt", "msg": "Make a 6 slide ppt for eval-class on neural network basics", "expect": {"slides": 6}},
+  {"id": "reading-1", "type": "reading", "msg": "Make reading material for eval-class"},
+  {"id": "quiz-1", "type": "quiz", "msg": "Make a quiz of 6 questions for eval-class", "expect": {"questions": 6}},
+  {"id": "qa-1", "type": "qa", "msg": "What is a neural network?"},
+  {"id": "qa-2", "type": "qa", "msg": "Explain the difference between supervised and unsupervised learning"},
+  {"id": "qa-3", "type": "qa", "msg": "Why is ReLU preferred over the sigmoid activation function?"},
+  {"id": "email-1", "type": "email", "msg": "Send mail to test@example.com that tomorrow's class is moved to 11 am", "expect": {"attachment": null}},
+  {"id": "email-2", "type": "email", "msg": "Email the reading material of eval-class to test@example.com", "expect": {"attachment": "reading"}}
+]

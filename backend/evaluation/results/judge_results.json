@@ -1,0 +1,253 @@
+{
+  "summary": {
+    "judge_model": "qwen/qwen3.8-27b",
+    "generator_model": "openai/gpt-oss-120b",
+    "cases": 8,
+    "judged": 8,
+    "errors": 0,
+    "overall_avg_of_5": 4.06,
+    "criteria_scored_4_or_5": "75%",
+    "programmatic_checks_passed": "16/16",
+    "by_type": {
+      "ppt": 4.5,
+      "reading": 4.25,
+      "quiz": 3.75,
+      "qa": 4.0,
+      "email": 4
+    }
+  },
+  "rows": [
+    {
+      "id": "ppt-1",
+      "type": "ppt",
+      "request": "Make a 6 slide ppt for eval-class on neural network basics",
+      "seconds": 14.7,
+      "checks": {
+        "slide_count": true,
+        "routed_to_ppt": true
+      },
+      "scores": {
+        "topic_coverage": {
+          "score": 4,
+          "reason": "Covers neurons, activation, training, an example, and modern nets, but omits core basics like backpropagation and loss functions in detail."
+        },
+        "clarity_for_students": {
+          "score": 4,
+          "reason": "Uses simple language and a relatable house-price example, though terms like 'gradient descent' and 'function approximators' may be slightly advanced."
+        },
+        "logical_flow": {
+          "score": 5,
+          "reason": "Progresses sensibly from definition to learning, example, scaling, and takeaways."
+        },
+        "conciseness": {
+          "score": 5,
+          "reason": "Each slide has 3-4 tight bullets, well-suited to a 6-slide deck without clutter."
+        }
+      },
+      "avg": 4.5
+    },
+    {
+      "id": "reading-1",
+      "type": "reading",
+      "request": "Make reading material for eval-class",
+      "seconds": 10.2,
+      "checks": {
+        "routed_to_reading": true
+      },
+      "scores": {
+        "topic_coverage": {
+          "score": 4,
+          "reason": "Covers neurons, layers, supervised training, gradient descent, a worked example, and the evolution to deep nets, giving a solid overview of neural network basics."
+        },
+        "explanation_quality": {
+          "score": 4,
+          "reason": "Clear definitions and a worked house-price example, but the example is conceptual rather than numeric, and the 'pric\u00ea' typo and unexplained one-hot encoding slightly weaken rigor."
+        },
+        "structure": {
+          "score": 5,
+          "reason": "Well organized with clear headings, a logical flow from basics to training to modern nets, and a takeaways/quiz section."
+        },
+        "student_friendliness": {
+          "score": 4,
+          "reason": "Friendly tone, analogies, and a quiz make it engaging, though the broken local image paths and a stray typo may distract students."
+        }
+      },
+      "avg": 4.25
+    },
+    {
+      "id": "quiz-1",
+      "type": "quiz",
+      "request": "Make a quiz of 6 questions for eval-class",
+      "seconds": 4.7,
+      "checks": {
+        "question_count": true,
+        "mcq_have_4_options": true,
+        "all_have_answers": true,
+        "routed_to_quiz": true
+      },
+      "scores": {
+        "question_quality": {
+          "score": 4,
+          "reason": "Questions are mostly clear and well-targeted, but Q4 references a specific 'house-price prediction example' not provided in the paper, making it ambiguous for a standalone quiz."
+        },
+        "answer_correctness": {
+          "score": 4,
+          "reason": "All answers are accurate; Q3's claim that AlexNet 'introduced ReLU' is a common simplification (ReLU predates it) but is acceptable in this context, and the long-form answers are technically sound."
+        },
+        "coverage_and_variety": {
+          "score": 3,
+          "reason": "Covers activation functions, training loop, AlexNet, and depth/width trade-offs, but all 4 MCQs are single-fact recall and there is no true/false, fill-in, or diagram-based item, limiting variety."
+        },
+        "clarity": {
+          "score": 4,
+          "reason": "Language is clear and well-structured, though the duplicated option labels (e.g., 'A) A)') are a minor formatting blemish."
+        }
+      },
+      "avg": 3.75
+    },
+    {
+      "id": "qa-1",
+      "type": "qa",
+      "request": "What is a neural network?",
+      "seconds": 15.3,
+      "checks": {
+        "routed_to_qa": true
+      },
+      "scores": {
+        "relevance": {
+          "score": 4,
+          "reason": "Directly answers 'What is a neural network?' with definition, components, flow, and types, though it adds extra material (BRNNs, CNNs) beyond the core question."
+        },
+        "faithfulness_to_sources": {
+          "score": 3,
+          "reason": "Most claims are grounded in the provided pages (stacked neurons, price example, BRNN properties, activation functions), but several items (loss functions, optimizers, CNNs, end-to-end learning) are not in the source material."
+        },
+        "accuracy": {
+          "score": 3,
+          "reason": "The core description is correct, but the claim that neural networks generally handle variable-length inputs 'unlike classic MLPs or TDNNs' is misleading\u2014only RNNs/BRNNs do, not neural networks as a whole."
+        },
+        "clarity": {
+          "score": 4,
+          "reason": "Well-structured with headings, a table, and a diagram, making it easy to follow, though the answer is cut off mid-sentence at the end."
+        }
+      },
+      "avg": 3.5
+    },
+    {
+      "id": "qa-2",
+      "type": "qa",
+      "request": "Explain the difference between supervised and unsupervised learning",
+      "seconds": 12.1,
+      "checks": {
+        "routed_to_qa": true
+      },
+      "scores": {
+        "relevance": {
+          "score": 5,
+          "reason": "Directly and thoroughly explains the difference between supervised and unsupervised learning, matching the teacher's request."
+        },
+        "faithfulness_to_sources": {
+          "score": 3,
+          "reason": "Supervised claims (labeled y, real estate/price example, applications like speech recognition, machine translation, autonomous driving) are supported by the book excerpt, but the unsupervised section relies on external web citations and invented examples (clustering, anomaly detection, topic modeling) not present in the provided source material."
+        },
+        "accuracy": {
+          "score": 4,
+          "reason": "The core definitions and distinctions are factually correct; minor typo '(x, y) pairs)' in the diagram and the unsupervised examples are standard and accurate."
+        },
+        "clarity": {
+          "score": 5,
+          "reason": "Well-organized with a comparison table, visual summary, checklist, and plain-language bottom line, making the distinction easy to understand."
+        }
+      },
+      "avg": 4.25
+    },
+    {
+      "id": "qa-3",
+      "type": "qa",
+      "request": "Why is ReLU preferred over the sigmoid activation function?",
+      "seconds": 4.2,
+      "checks": {
+        "routed_to_qa": true
+      },
+      "scores": {
+        "relevance": {
+          "score": 5,
+          "reason": "Directly answers why ReLU is preferred over sigmoid with organized sections covering the core reasons."
+        },
+        "faithfulness_to_sources": {
+          "score": 3,
+          "reason": "Most claims are grounded in the notes (vanishing gradients, faster training, leaky ReLU), but several points (sparse activation as regularizer, computational cheapness, softmax output layer) are not in the provided source material."
+        },
+        "accuracy": {
+          "score": 4,
+          "reason": "Technically correct overall, but the final quote is misquoted/misattributed\u2014the source says 'switching to sigmoid functions from ReLU functions' which is itself garbled, and the assistant's parenthetical correction is reasonable but the quote as shown is confusing; also the source's odd claim that ReLU 'has slope at 0.0000000000... near zero' is not addressed."
+        },
+        "clarity": {
+          "score": 5,
+          "reason": "Well-structured with tables, formulas, and a clear summary; easy to follow."
+        }
+      },
+      "avg": 4.25
+    },
+    {
+      "id": "email-1",
+      "type": "email",
+      "request": "Send mail to test@example.com that tomorrow's class is moved to 11 am",
+      "seconds": 15.6,
+      "checks": {
+        "paused_for_approval": true,
+        "attachment_correct": true,
+        "routed_to_email": true
+      },
+      "scores": {
+        "follows_teacher_request": {
+          "score": 5,
+          "reason": "The email correctly states that tomorrow's class is moved to 11 am and is addressed to test@example.com, matching the request."
+        },
+        "no_invented_facts": {
+          "score": 5,
+          "reason": "No extra facts, dates, times, or links beyond the requested information were added."
+        },
+        "tone_and_clarity": {
+          "score": 5,
+          "reason": "Polite, professional, and clear in tone and wording."
+        },
+        "appropriate_length": {
+          "score": 5,
+          "reason": "Concise and to the point, with no unnecessary content."
+        }
+      },
+      "avg": 5
+    },
+    {
+      "id": "email-2",
+      "type": "email",
+      "request": "Email the reading material of eval-class to test@example.com",
+      "seconds": 4.8,
+      "checks": {
+        "paused_for_approval": true,
+        "attachment_correct": true,
+        "routed_to_email": true
+      },
+      "scores": {
+        "follows_teacher_request": {
+          "score": 3,
+          "reason": "The email is addressed to test@example.com as requested, but it redundantly states 'I have also emailed it to test@example.com' to the same recipient, which is confusing and not what was asked."
+        },
+        "no_invented_facts": {
+          "score": 2,
+          "reason": "Invents a specific filename 'eval-class-reading-material.pdf' and claims it was 'also emailed' to the same address, which the teacher did not state."
+        },
+        "tone_and_clarity": {
+          "score": 3,
+          "reason": "Polite and professional, but the self-referential sentence about emailing the same address is confusing and unclear."
+        },
+        "appropriate_length": {
+          "score": 4,
+          "reason": "Short and to the point, though slightly padded with the redundant sentence."
+        }
+      },
+      "avg": 3
+    }
+  ]
+}

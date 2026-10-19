@@ -1,0 +1,413 @@
+{
+  "summary": {
+    "total": 42,
+    "correct": 41,
+    "accuracy": 0.976,
+    "email_attachment_correct": "8/8",
+    "per_intent": {
+      "qa": "7/8",
+      "ppt": "7/7",
+      "reading": "6/6",
+      "quiz": "7/7",
+      "email": "8/8",
+      "chat": "6/6"
+    },
+    "seconds": 85
+  },
+  "rows": [
+    {
+      "msg": "What is a neural network?",
+      "intent": "qa",
+      "got": "qa",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "Explain backpropagation in simple words",
+      "intent": "qa",
+      "got": "qa",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "difference between supervised and unsupervised learning?",
+      "intent": "qa",
+      "got": "qa",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "why do we use ReLU instead of sigmoid",
+      "intent": "qa",
+      "got": "qa",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "explain deep learning from the book i uploaded",
+      "intent": "qa",
+      "got": "qa",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "what does overfitting mean",
+      "intent": "qa",
+      "got": "qa",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "chai kaise bannate hai",
+      "intent": "qa",
+      "got": "qa",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "summarise chapter on gradient descent",
+      "intent": "qa",
+      "got": "reading",
+      "got_file_kind": "none",
+      "intent_ok": false,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "Make a 8 slide ppt on photosynthesis",
+      "intent": "ppt",
+      "got": "ppt",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "make a ppt on topic deep learning with 8-10 pages",
+      "intent": "ppt",
+      "got": "ppt",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "Create a presentation for class 7 on the water cycle, 6 slides",
+      "intent": "ppt",
+      "got": "ppt",
+      "got_file_kind": "ppt",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "I need slides about neural networks for tomorrow's lecture",
+      "intent": "ppt",
+      "got": "ppt",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "ppt bana do machine learning par 10 slides ka",
+      "intent": "ppt",
+      "got": "ppt",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "prepare a powerpoint on Newton's laws of motion",
+      "intent": "ppt",
+      "got": "ppt",
+      "got_file_kind": "ppt",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "make slides on the French revolution for class 9",
+      "intent": "ppt",
+      "got": "ppt",
+      "got_file_kind": "ppt",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "Make reading material for class 1",
+      "intent": "reading",
+      "got": "reading",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "make reading material from last ppt topics",
+      "intent": "reading",
+      "got": "reading",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "I want study notes for class 7 on the water cycle as a pdf",
+      "intent": "reading",
+      "got": "reading",
+      "got_file_kind": "reading",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "create a handout students can read about neural networks",
+      "intent": "reading",
+      "got": "reading",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "generate reading material for class 9 history",
+      "intent": "reading",
+      "got": "reading",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "write a reading material on photosynthesis for class 5",
+      "intent": "reading",
+      "got": "reading",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "make a quize paper",
+      "intent": "quiz",
+      "got": "quiz",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "Make a quiz of 10 questions for class 1",
+      "intent": "quiz",
+      "got": "quiz",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "create a question paper on neural networks with 15 questions",
+      "intent": "quiz",
+      "got": "quiz",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "I need a test for class 7 on the water cycle",
+      "intent": "quiz",
+      "got": "quiz",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "generate mcq questions from the ppt for class 9",
+      "intent": "quiz",
+      "got": "quiz",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "prepare an exam paper for class 5 science",
+      "intent": "quiz",
+      "got": "quiz",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "send mail to student that we will have class tomorrow at 10 am",
+      "intent": "email",
+      "file_kind": "none",
+      "got": "email",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": true,
+      "error": null
+    },
+    {
+      "msg": "Email the reading material of class 1 to students",
+      "intent": "email",
+      "file_kind": "reading",
+      "got": "email",
+      "got_file_kind": "reading",
+      "intent_ok": true,
+      "file_kind_ok": true,
+      "error": null
+    },
+    {
+      "msg": "mail the quiz paper to a@x.com and b@x.com",
+      "intent": "email",
+      "file_kind": "quiz",
+      "got": "email",
+      "got_file_kind": "quiz",
+      "intent_ok": true,
+      "file_kind_ok": true,
+      "error": null
+    },
+    {
+      "msg": "send the ppt for class 7 to all students",
+      "intent": "email",
+      "file_kind": "ppt",
+      "got": "email",
+      "got_file_kind": "ppt",
+      "intent_ok": true,
+      "file_kind_ok": true,
+      "error": null
+    },
+    {
+      "msg": "tell the students that tomorrow is a holiday, send an email",
+      "intent": "email",
+      "file_kind": "none",
+      "got": "email",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": true,
+      "error": null
+    },
+    {
+      "msg": "email students: submit your assignments by Friday",
+      "intent": "email",
+      "file_kind": "none",
+      "got": "email",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": true,
+      "error": null
+    },
+    {
+      "msg": "mail class 9 reading material to students",
+      "intent": "email",
+      "file_kind": "reading",
+      "got": "email",
+      "got_file_kind": "reading",
+      "intent_ok": true,
+      "file_kind_ok": true,
+      "error": null
+    },
+    {
+      "msg": "hii",
+      "intent": "chat",
+      "got": "chat",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "hello, who are you?",
+      "intent": "chat",
+      "got": "chat",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "thanks!",
+      "intent": "chat",
+      "got": "chat",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "what can you do?",
+      "intent": "chat",
+      "got": "chat",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "good morning",
+      "intent": "chat",
+      "got": "chat",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "ok great",
+      "intent": "chat",
+      "got": "chat",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "make a quiz for it",
+      "intent": "quiz",
+      "history": [
+        "Make a 6 slide ppt for class 7 on the water cycle",
+        "Created a 6-slide presentation for class 7."
+      ],
+      "got": "quiz",
+      "got_file_kind": "none",
+      "intent_ok": true,
+      "file_kind_ok": null,
+      "error": null
+    },
+    {
+      "msg": "now email it to the students",
+      "intent": "email",
+      "file_kind": "ppt",
+      "history": [
+        "Make a 6 slide ppt for class 7 on the water cycle",
+        "Created a 6-slide presentation for class 7."
+      ],
+      "got": "email",
+      "got_file_kind": "ppt",
+      "intent_ok": true,
+      "file_kind_ok": true,
+      "error": null
+    }
+  ]
+}

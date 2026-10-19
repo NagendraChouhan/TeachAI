@@ -1,0 +1,52 @@
+[
+  {"msg": "What is a neural network?", "intent": "qa"},
+  {"msg": "Explain backpropagation in simple words", "intent": "qa"},
+  {"msg": "difference between supervised and unsupervised learning?", "intent": "qa"},
+  {"msg": "why do we use ReLU instead of sigmoid", "intent": "qa"},
+  {"msg": "explain deep learning from the book i uploaded", "intent": "qa"},
+  {"msg": "what does overfitting mean", "intent": "qa"},
+  {"msg": "chai kaise bannate hai", "intent": "qa"},
+  {"msg": "summarise chapter on gradient descent", "intent": "qa"},
+
+  {"msg": "Make a 8 slide ppt on photosynthesis", "intent": "ppt"},
+  {"msg": "make a ppt on topic deep learning with 8-10 pages", "intent": "ppt"},
+  {"msg": "Create a presentation for class 7 on the water cycle, 6 slides", "intent": "ppt"},
+  {"msg": "I need slides about neural networks for tomorrow's lecture", "intent": "ppt"},
+  {"msg": "ppt bana do machine learning par 10 slides ka", "intent": "ppt"},
+  {"msg": "prepare a powerpoint on Newton's laws of motion", "intent": "ppt"},
+  {"msg": "make slides on the French revolution for class 9", "intent": "ppt"},
+
+  {"msg": "Make reading material for class 1", "intent": "reading"},
+  {"msg": "make reading material from last ppt topics", "intent": "reading"},
+  {"msg": "I want study notes for class 7 on the water cycle as a pdf", "intent": "reading"},
+  {"msg": "create a handout students can read about neural networks", "intent": "reading"},
+  {"msg": "generate reading material for class 9 history", "intent": "reading"},
+  {"msg": "write a reading material on photosynthesis for class 5", "intent": "reading"},
+
+  {"msg": "make a quize paper", "intent": "quiz"},
+  {"msg": "Make a quiz of 10 questions for class 1", "intent": "quiz"},
+  {"msg": "create a question paper on neural networks with 15 questions", "intent": "quiz"},
+  {"msg": "I need a test for class 7 on the water cycle", "intent": "quiz"},
+  {"msg": "generate mcq questions from the ppt for class 9", "intent": "quiz"},
+  {"msg": "prepare an exam paper for class 5 science", "intent": "quiz"},
+
+  {"msg": "send mail to student that we will have class tomorrow at 10 am", "intent": "email", "file_kind": "none"},
+  {"msg": "Email the reading material of class 1 to students", "intent": "email", "file_kind": "reading"},
+  {"msg": "mail the quiz paper to a@x.com and b@x.com", "intent": "email", "file_kind": "quiz"},
+  {"msg": "send the ppt for class 7 to all students", "intent": "email", "file_kind": "ppt"},
+  {"msg": "tell the students that tomorrow is a holiday, send an email", "intent": "email", "file_kind": "none"},
+  {"msg": "email students: submit your assignments by Friday", "intent": "email", "file_kind": "none"},
+  {"msg": "mail class 9 reading material to students", "intent": "email", "file_kind": "reading"},
+
+  {"msg": "hii", "intent": "chat"},
+  {"msg": "hello, who are you?", "intent": "chat"},
+  {"msg": "thanks!", "intent": "chat"},
+  {"msg": "what can you do?", "intent": "chat"},
+  {"msg": "good morning", "intent": "chat"},
+  {"msg": "ok great", "intent": "chat"},
+
+  {"msg": "make a quiz for it", "intent": "quiz",
+   "history": ["Make a 6 slide ppt for class 7 on the water cycle", "Created a 6-slide presentation for class 7."]},
+  {"msg": "now email it to the students", "intent": "email", "file_kind": "ppt",
+   "history": ["Make a 6 slide ppt for class 7 on the water cycle", "Created a 6-slide presentation for class 7."]}
+]

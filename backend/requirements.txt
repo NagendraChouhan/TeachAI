@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+langgraph
+langchain
+langchain-core
+langchain-groq
+langchain-text-splitters
+chromadb
+pymupdf
+python-pptx
+reportlab
+ddgs
+langgraph-checkpoint-sqlite
